@@ -1,0 +1,31 @@
+# Initialize repository
+mkdir medfusion
+cd medfusion
+git init
+
+# Create directory structure
+mkdir -p data/{splits,cache/{images,features}}
+mkdir -p models/{encoders,fusion,baselines}
+mkdir -p training evaluation experiments/{configs} scripts
+mkdir -p notebooks configs results/{baselines,medfusion_simple_cnn,ablation_studies}
+mkdir -p docs tests reports paper/{figures} epic_integration docker
+
+# Create key files
+touch README.md requirements.txt setup.py pyproject.toml .gitignore LICENSE
+touch data/__init__.py data/download_mmmed.py data/mmmed_dataset.py
+touch models/__init__.py models/medfusion.py
+touch training/__init__.py training/trainer.py
+touch evaluation/__init__.py evaluation/evaluator.py
+touch scripts/train_medfusion.py scripts/evaluate_model.py
+
+# Initialize README
+echo "# MedFusion: Medical Multimodal VQA for Clinical Assistance" > README.md
+
+# Create initial commit
+git add .
+git commit -m "Initial project structure"
+git branch -M main
+
+# Connect to GitHub (replace with your repo)
+git remote add origin https://github.com/yourusername/medfusion.git
+git push -u origin main
