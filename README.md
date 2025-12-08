@@ -4,11 +4,11 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]()
 
-## 📋 Overview
+# 📋 Overview
 MedFusion is a reproducible baseline for multimodal medical Visual Question Answering (VQA), evaluating the effectiveness of domain-specific text encoders (Bio_ClinicalBERT) combined with visual features on the MMMED benchmark. This project establishes a transparent, statistically validated baseline for medical VQA research.
 
-## 🚀 Quick Start
-bash
+# 🚀 Quick Start
+
 # 1. Install dependencies
 pip install -r requirements.txt
 
@@ -27,6 +27,7 @@ Statistically significant improvement: 10% absolute gain over random baseline (p
 Clinical insight: Medical questions require both text and images - neither modality alone suffices
 
 # Project Structure
+text 
 medfusion/
 ├── setup_and_config.py          # Data loading & preprocessing
 ├── baselines.py                 # Random, Majority, unimodal baselines  
@@ -93,13 +94,13 @@ bash
     python evaluation_and_report.py
 
 ## Citation
-bibtex
 @software{medfusion2024,
   title = {MedFusion: A Reproducible Multimodal VQA Baseline for Clinical Report Assistance},
   author = {Trang Khong},
   year = {2025},
   url = {https://github.com/tikik/medfusion},
   note = {Transparent baseline for medical VQA with statistical validation}
-}
-📄 License
+} 
+
+## License
 MIT License - see LICENSE for details.
