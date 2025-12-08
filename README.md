@@ -31,10 +31,9 @@ Statistically significant improvement: 10% absolute gain over random baseline (p
 
 Clinical insight: Medical questions require both text and images - neither modality alone suffices
 
-### Project Structure
+## Project Structure
 
 '''
-
 medfusion/
 ├── setup_and_config.py          # Data loading & preprocessing
 ├── baselines.py                 # Random, Majority, unimodal baselines  
@@ -43,6 +42,7 @@ medfusion/
 ├── evaluation_and_report.py     # Statistical analysis & auto-report
 ├── requirements.txt             # Dependencies
 └── README.md                    # This file
+
 
 '''
 
