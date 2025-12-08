@@ -60,12 +60,20 @@ Evaluation: Bootstrapped confidence intervals, statistical significance tests
 
 ### Results Summary
 
-Model	Accuracy	F1-Macro	Key Insight
-Random Baseline	25.0%	22.6%	Expected lower bound
-Majority (Class B)	30.0%	9.2%	Dataset bias baseline
-Text-Only (Bio_ClinicalBERT)	15.0%	5.2%	Below random - needs images!
-Image-Only (Simple CNN)	20.0%	7.3%	Images alone insufficient
-MedFusion	35.0%	24.1%	Multimodal fusion works
+- **Random Baseline** — 25% accuracy  
+  Serves as the statistical lower bound.
+
+- **Majority Class** — 30% accuracy  
+  Indicates class imbalance; a useful sanity check.
+
+- **Text-Only (Bio_ClinicalBERT)** — 15% accuracy  
+  Text alone is not predictive for this dataset.
+
+- **Image-Only (Simple CNN)** — 20% accuracy  
+  Images contain some signal but remain insufficient.
+
+- **MedFusion (Ours)** — **35% accuracy**  
+  The combined text + image model outperforms all baselines, confirming that **multimodal fusion is beneficial**.
 
 ### Statistical Validation
 
