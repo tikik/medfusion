@@ -11,9 +11,9 @@ MedFusion is a reproducible baseline for multimodal medical Visual Question Answ
 
 ### 1. Install dependencies
 
-'''bash
+```bash
 pip install -r requirements.txt
-'''
+```
 
 ### 2. Prepare data and run analysis
 
@@ -33,7 +33,7 @@ Clinical insight: Medical questions require both text and images - neither modal
 
 ## Project Structure
 
-'''
+```
 medfusion/
 ├── setup_and_config.py          # Data loading & preprocessing
 ├── baselines.py                 # Random, Majority, unimodal baselines  
@@ -44,7 +44,7 @@ medfusion/
 └── README.md                    # This file
 
 
-'''
+```
 
 ### Methodology
 
@@ -99,25 +99,25 @@ Production-ready code with automated analysis
 
 ### Advanced Usage
 
-'''bash
+```bash
   # Full training pipeline (requires GPU)
     python setup_and_config.py
     python baselines.py
     python training.py --train --epochs 10
     python evaluation_and_report.py
-'''
+```
 
 ## Citation
 
-'''
-@software{medfusion2024,
-  title = {MedFusion: A Reproducible Multimodal VQA Baseline for Clinical Report Assistance},
-  author = {Trang Khong},
-  year = {2025},
-  url = {https://github.com/tikik/medfusion},
-  note = {Transparent baseline for medical VQA with statistical validation}
-} 
-'''
+```bibtex
+@misc{medfusion2025,
+  title        = {MedFusion: A Reproducible Multimodal VQA Baseline for Clinical Report Assistance},
+  author       = {Khong, Trang},
+  year         = {2025},
+  howpublished = {\url{https://github.com/tikik/medfusion}},
+  note         = {Transparent and reproducible baseline for medical VQA with statistical validation},
+}
+```
 
 ## Contributors
 
