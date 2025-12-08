@@ -17,9 +17,11 @@ pip install -r requirements.txt
 
 ### 2. Prepare data and run analysis
 
+```bash
 python setup_and_config.py        # Downloads MMMED, creates splits
 python evaluation_and_report.py   # Analyzes results, generates report
 Note: Training requires GPU and takes ~30 minutes. For immediate results, the evaluation uses pre-computed baseline metrics.
+```
 
 ### 3. Key Findings
 
