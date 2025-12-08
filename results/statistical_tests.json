@@ -1,0 +1,18 @@
+{
+  "random_vs_majority": {
+    "accuracy": {
+      "observed_difference": -0.04999999999999999,
+      "ci_lower": 0.0,
+      "ci_upper": 0.0,
+      "p_value": 2.0,
+      "significant": "False"
+    },
+    "f1_macro": {
+      "observed_difference": 0.13372405372405372,
+      "ci_lower": -0.0444853709508882,
+      "ci_upper": 0.2769331899984074,
+      "p_value": 0.182,
+      "significant": "False"
+    }
+  }
+}
