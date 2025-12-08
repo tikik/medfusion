@@ -1,7 +1,5 @@
 # MedFusion: Final Evaluation Report
 
-Generated: 2025-12-07 21:48
-
 ## 1. Executive Summary
 
 - **Best Model**: Majority (Accuracy: 30.0%)
@@ -14,7 +12,7 @@ Generated: 2025-12-07 21:48
 |:--------------|-----------:|-----------:|-----------------:|:-------------------------------------------------------------|
 | Random        |       0.25 |  0.226032  |              nan | nan                                                          |
 | Majority      |       0.3  |  0.0923077 |                0 | nan                                                          |
-| Image Cnn     |       0.2  |  0.0727    |              nan | Simple CNN (not BiomedCLIP) - based on your reported results |
+| Image Cnn     |       0.2  |  0.0727    |              nan | Simple CNN (not BiomedCLIP)  |
 | Text Baseline |       0.15 |  0.0522    |              nan | Based on your reported results                               |
 
 ## 3. Statistical Significance
